@@ -1,0 +1,26 @@
+Log file created at: 2024/07/19 00:07:58
+Running on machine: 1cba27733ded
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+Unable to open: /dev/snx3-1
+ASIC initialization fail
+Failed to create DeviceContext
+Failed to open device
+Don't reuse runtime context
+Failed to open device
+Don't reuse runtime context
+Failed to open device
+Don't reuse runtime context
+Failed to open device
+Don't reuse runtime context
+Failed to open device
+Don't reuse runtime context
+Failed to open device
+Don't reuse runtime context
+Failed to open device
+Don't reuse runtime context
+Failed to open device
+Don't reuse runtime context
+Failed to open device
+Don't reuse runtime context
+SapeonStreamRunner is not initialized

@@ -1,0 +1,29 @@
+services:
+  bevdet:
+    container_name: bevdet_$USER
+    image: bevdet_$USER
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              device_ids: [ '0' ]
+              capabilities: [ gpu, compute, utility, graphics ]
+    volumes:
+      - ..:/bevdet
+      - ../bevdet:/mmdetection3d
+      - /data/nuscenes:/bevdet/data/nuscenes
+      - /data:/data
+      - ../..:/auto_projects
+      - /tmp/.X11-unix:/tmp/.X11-unix:ro
+      - ~/.Xauthority:/root/.Xauthority:ro
+    network_mode: host
+    environment:
+      - "DISPLAY"
+      - "LIBGL_ALWAYS_INDIRECT=1"
+    command: tail -f /dev/null
+    ipc: host
+    privileged: true

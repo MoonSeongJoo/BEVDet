@@ -1,0 +1,11 @@
+version: '3'
+services:
+  runtime:
+    image: sapeoninc/ubuntu-dev:latest
+    # networks:
+    #   - bevdet_runtime_network
+    tty : true
+    volumes:
+      - ~/workspace:/workspace
+    privileged: true
+    network_mode: host
