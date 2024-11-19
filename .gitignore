@@ -1,0 +1,14 @@
+src/cpp/runtime/build/
+models/
+src/python/bevdet4d-r50-depth-cbgs.pth
+src/python/testset_03_pth
+src/python/testset_03_pth.zip
+src/build
+src/cpp/runtime/build/bevdet_cmd_x330_new_with_dummy/bev_encoder_simp/SAPEON_CMD_DUMP_17_dma_write_232318c00_54052864.bin
+src/cpp/runtime/build/input.pth
+src/build/bevdet_runtime
+src/cpp/runtime/build/models_x330_32_new/bev_encoder/SAPEON_CMD_DUMP_17_dma_write_23a2a7400_54052864.bin
+src/cpp/runtime/build/bevdet_cmd_x330_new_with_dummy.zip
+src/cpp/runtime/build/testset_03_pth.zip
+src/python/bevdet4d-r50-depth-cbgs.pth
+src/python/testset_03_pth.zip
