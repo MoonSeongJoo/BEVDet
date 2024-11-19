@@ -12,3 +12,7 @@ src/cpp/runtime/build/bevdet_cmd_x330_new_with_dummy.zip
 src/cpp/runtime/build/testset_03_pth.zip
 src/python/bevdet4d-r50-depth-cbgs.pth
 src/python/testset_03_pth.zip
+.hypothesis
+.vscode
+notebook
+sapeon-sdk_2024-07-18.deb
